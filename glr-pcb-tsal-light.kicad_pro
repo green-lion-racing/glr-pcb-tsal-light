@@ -713,7 +713,7 @@
         "uuid": "be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "JP1,J1-2,SolderWirePad1",
     "variants": []
   },
   "sheets": [
