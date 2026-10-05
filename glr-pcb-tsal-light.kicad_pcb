@@ -160,13 +160,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "004d5b6d-3337-4815-bf2d-d380c2b9a162")
-		(at 213 100)
+		(at 206 123)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
-			(uuid "dc232ddc-4b00-4414-9c41-a442b33415d2")
+			(uuid "9663f619-faaf-47e9-a05f-ece2d5d217f8")
 			(effects
 				(font
 					(size 1 1)
@@ -175,9 +175,9 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.65 0)
+			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ef3432a3-7690-40b1-b55c-2fc23a8e0e20")
+			(uuid "85477c0c-6182-4ea7-9e96-133e928e1a86")
 			(effects
 				(font
 					(size 1 1)
@@ -189,7 +189,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e35ce5d-ecd1-4db5-a43e-df9b4bf86882")
+			(uuid "81741c10-5671-4e24-a37c-a1aefdaa7491")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +200,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1fcdd72-3ec5-47da-9e9f-0ef0083cba94")
+			(uuid "a5313755-11e1-45b3-b978-bb52318211d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,14 +318,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
 		(layer "F.Cu")
 		(uuid "20b743ae-7dbf-4ca0-802a-8c07005eca73")
-		(at 133 94 180)
+		(at 131 117 180)
 		(descr "Mono-color TOP LED Waterclear, body 2x1.4x1.31mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW-2214")
 		(tags "Architectural LED lighting")
 		(property "Reference" "GREEN9"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "065f522a-2836-4f68-968a-0fc3eddacde0")
+			(uuid "7b8167ba-39a4-482e-9819-240760127f03")
 			(effects
 				(font
 					(size 1 1)
@@ -338,7 +338,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "632d337f-5922-4caa-8adc-f88831a08969")
+			(uuid "f93a8cb0-0193-42b3-ad99-501fc25f8a43")
 			(effects
 				(font
 					(size 1 1)
@@ -350,7 +350,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c9a21f0-c5c9-4245-9126-cee29f951ae2")
+			(uuid "76637d03-408f-40a2-b721-28b5b85bd9ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,7 +361,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e361a37e-f06b-4a81-8976-474f8ec5d539")
+			(uuid "fbd671f9-e070-4bfe-97a0-a3f8569f2b82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,14 +710,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-1608"
 		(layer "F.Cu")
 		(uuid "27e604f2-274d-4ad8-a73a-b01477b269f8")
-		(at 173 92)
+		(at 171 115)
 		(descr "Mono-color TOP LED Waterclear, body 1.6x0.8x0.55mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW_1608")
 		(tags "Architectural LED lighting")
 		(property "Reference" "RED3"
 			(at 0 -1.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4e5341b5-089e-4fa0-b675-81f243b1734a")
+			(uuid "bfe478e7-a197-4c06-9240-268d5ccbf45f")
 			(effects
 				(font
 					(size 1 1)
@@ -730,7 +730,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9e92ae9-ca6b-4805-9977-4805387be9a3")
+			(uuid "bd310f0c-589b-420f-a4c9-8c68d5e3c3e3")
 			(effects
 				(font
 					(size 1 1)
@@ -742,7 +742,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37ee764d-44c6-4ecf-8d3b-d52f3067c74c")
+			(uuid "1ee92383-c2b3-4878-b504-98da090472b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +753,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "799eb060-837e-4c15-9c56-3df080a7adc6")
+			(uuid "7cf70318-102f-404a-80bb-0e9f3fe56593")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1072,7 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
 		(layer "F.Cu")
 		(uuid "29985c14-1c5a-4d24-b3af-4757168dd8ee")
-		(at 113 98 180)
+		(at 111 121 180)
 		(descr "Mono-color TOP LED Waterclear, body 2x1.4x1.31mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW-2214")
 		(tags "Architectural LED lighting")
 		(property "Reference" "GREEN10"
@@ -1464,14 +1464,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-1608"
 		(layer "F.Cu")
 		(uuid "46ae06fe-7c7b-4ae1-8595-34ca0bec6cc6")
-		(at 153 88)
+		(at 151 111)
 		(descr "Mono-color TOP LED Waterclear, body 1.6x0.8x0.55mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW_1608")
 		(tags "Architectural LED lighting")
 		(property "Reference" "RED4"
 			(at 0 -1.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c852e86a-d0c5-424a-9266-fd959f2f2d96")
+			(uuid "e34e8dd1-395e-453f-a384-4453984533bf")
 			(effects
 				(font
 					(size 1 1)
@@ -1484,7 +1484,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9fafcc3-7c72-4061-bffd-9b17dc890244")
+			(uuid "3ede16bb-6436-4c3c-864c-a7de37c47376")
 			(effects
 				(font
 					(size 1 1)
@@ -1496,7 +1496,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65766136-dd40-41c1-91b7-0533115481dc")
+			(uuid "cf7a2b6d-335e-43a4-9d68-de0181793e32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1507,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c642983a-b093-440e-9cae-26a8169a80a7")
+			(uuid "8db7de99-6832-4133-8bee-f87bc3f78232")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,14 +1826,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-1608"
 		(layer "F.Cu")
 		(uuid "58cfa499-78d6-4fd0-b4f8-4b406bd271f3")
-		(at 193 95.5)
+		(at 191 118.5)
 		(descr "Mono-color TOP LED Waterclear, body 1.6x0.8x0.55mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW_1608")
 		(tags "Architectural LED lighting")
 		(property "Reference" "RED1"
 			(at 0 -1.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dbc04751-e2bb-4c33-833e-7579772c4aff")
+			(uuid "bcace2cb-9c2f-438d-a6b1-f562a033d5bd")
 			(effects
 				(font
 					(size 1 1)
@@ -1846,7 +1846,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4a6ba0b-6953-4589-b49d-844b59f9b0f8")
+			(uuid "741b08c1-4569-4f05-b867-7d21ff856936")
 			(effects
 				(font
 					(size 1 1)
@@ -1858,7 +1858,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46351de0-6ce2-4d5d-b682-4eb64dda9d58")
+			(uuid "3731a954-b288-46a3-bdfd-695e5647d1e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1869,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9458ac0-e523-490a-99d0-a18232e73bb1")
+			(uuid "71f94053-b598-434f-b691-17941fc711da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,14 +2188,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-1608"
 		(layer "F.Cu")
 		(uuid "5a71ca4a-b36c-440d-8956-185e97699ccf")
-		(at 133 92)
+		(at 131 115)
 		(descr "Mono-color TOP LED Waterclear, body 1.6x0.8x0.55mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW_1608")
 		(tags "Architectural LED lighting")
 		(property "Reference" "RED5"
 			(at 0 -1.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2532ef4c-f2a0-488f-8356-28973849d473")
+			(uuid "760c3ae6-0430-45d3-bc09-e45c49656848")
 			(effects
 				(font
 					(size 1 1)
@@ -2208,7 +2208,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "adf8d256-63c0-45c0-89af-9b4edef1d2fb")
+			(uuid "758b384e-93e0-4eb5-bdb1-0e3de9979932")
 			(effects
 				(font
 					(size 1 1)
@@ -2220,7 +2220,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "665c719b-a888-47e6-9ddc-4bb2bad32391")
+			(uuid "c7407a7d-7895-4eae-a14c-8776c81adc86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2231,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e00e9448-7b1b-4718-ad40-d440c8f423ac")
+			(uuid "4c6b5aab-7a36-4245-b9f6-f18b35396750")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,14 +2550,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
 		(layer "F.Cu")
 		(uuid "5c864c97-edd6-439e-88b5-6a06cd2f7a39")
-		(at 153 90 180)
+		(at 151 113 180)
 		(descr "Mono-color TOP LED Waterclear, body 2x1.4x1.31mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW-2214")
 		(tags "Architectural LED lighting")
 		(property "Reference" "GREEN8"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9f112e3a-e846-4dad-9505-233339c1ad76")
+			(uuid "e55ea8f0-0bc4-4531-be6f-d28dbf9953a3")
 			(effects
 				(font
 					(size 1 1)
@@ -2570,7 +2570,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35d6671f-4824-4651-a2ce-5ce60eb8d6e0")
+			(uuid "1671b381-a49b-45b1-837e-4098938d1872")
 			(effects
 				(font
 					(size 1 1)
@@ -2582,7 +2582,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "155d0f3f-0e50-4ff9-9400-e2789a42b03c")
+			(uuid "9c520e16-77ce-4972-a81c-9d904c703926")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4f04ca7-2ed2-431e-8687-3955c2d98d63")
+			(uuid "0f6e8436-49a6-4363-95fb-6ba7f92b7df4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,13 +2942,13 @@
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm"
 		(layer "F.Cu")
 		(uuid "6eff61e4-a42e-4a5b-a8a6-a756a86cdca8")
-		(at 218 94.5 -90)
+		(at 212 121.5 -90)
 		(descr "Soldered wire connection, for 3 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "J1"
 			(at 4.5 -2.2 90)
 			(layer "F.SilkS")
-			(uuid "cbbb16f4-06a0-4392-b645-ee27740d9bd2")
+			(uuid "f3a3a875-f921-4b27-b874-7ff63f8b533c")
 			(effects
 				(font
 					(size 1 1)
@@ -2957,9 +2957,9 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 6 -4 270)
+			(at 7 -4 270)
 			(layer "F.Fab")
-			(uuid "8f5425d1-11c2-4abd-9e9b-cdec2842921b")
+			(uuid "37f372d0-ed7d-40ee-acbb-4010900ea9e4")
 			(effects
 				(font
 					(size 1 1)
@@ -2971,7 +2971,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a95f627c-ab60-4f40-a6eb-d4598d090358")
+			(uuid "70d6cbcb-fd79-4caf-ae78-f4e756660fe0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2982,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80f84f8a-3f27-497b-8f09-9d5324bce2b5")
+			(uuid "36f1441f-2530-492f-982d-4583b2dda444")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,14 +3139,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
 		(layer "F.Cu")
 		(uuid "b36fc638-5a49-48b8-8293-9deef19e8005")
-		(at 193 98 180)
+		(at 191 121 180)
 		(descr "Mono-color TOP LED Waterclear, body 2x1.4x1.31mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW-2214")
 		(tags "Architectural LED lighting")
 		(property "Reference" "GREEN2"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "35ed25d5-7131-4046-b924-898427a7ba01")
+			(uuid "a7d66ca0-9cad-4293-a932-a76e3b6126e2")
 			(effects
 				(font
 					(size 1 1)
@@ -3159,7 +3159,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9ae91e3-7442-41d7-bdd0-c6a0e75d0e87")
+			(uuid "bed3c420-867d-408e-8c2e-5314e369153a")
 			(effects
 				(font
 					(size 1 1)
@@ -3171,7 +3171,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db8526c8-f653-4451-95d2-ab45e0b86e48")
+			(uuid "8bef7272-0301-44d5-8ca1-7240b0805c7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3182,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdf96d32-c5f2-4c67-aace-6d8148bd4e0c")
+			(uuid "ef08fe11-4c21-48d9-82c0-75d78b0e2fc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,13 +3531,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "be23fed1-2bef-4b49-90a1-b053bbdb7581")
-		(at 213 102)
+		(at 206 125)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.65 0)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
-			(uuid "bf7b16fc-ca40-473c-b590-55b5ef4ff2f0")
+			(uuid "cc8b8ae5-042f-453a-88ce-093c9961db58")
 			(effects
 				(font
 					(size 1 1)
@@ -3546,9 +3546,9 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.65 0)
+			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "53228f1f-5ee8-49bd-938f-cb4514253c64")
+			(uuid "e76ec34f-0e98-4cd2-8693-9cbc1ebd4c3a")
 			(effects
 				(font
 					(size 1 1)
@@ -3560,7 +3560,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1036b0b2-da11-4af8-af9a-5ae646a9083a")
+			(uuid "99fa1268-d8ef-4a94-b5fc-79db690ab977")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3571,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2da1fd54-904d-4c0a-8b96-52c64817b6ea")
+			(uuid "f2790b09-7446-4fa1-8ff0-377749db38fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +3689,7 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-1608"
 		(layer "F.Cu")
 		(uuid "d9d293fe-49cf-4956-a5e7-25599a6d0f91")
-		(at 113 96)
+		(at 111 119)
 		(descr "Mono-color TOP LED Waterclear, body 1.6x0.8x0.55mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW_1608")
 		(tags "Architectural LED lighting")
 		(property "Reference" "RED6"
@@ -4051,14 +4051,14 @@
 	(footprint "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
 		(layer "F.Cu")
 		(uuid "fd51efd2-9238-4c64-b1b3-b1f5d0578068")
-		(at 173 94 180)
+		(at 171 117 180)
 		(descr "Mono-color TOP LED Waterclear, body 2x1.4x1.31mm, https://www.we-online.com/en/components/products/WL-SMTW#/articles/WL-SMTW-2214")
 		(tags "Architectural LED lighting")
 		(property "Reference" "GREEN7"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "a6c227fa-5d50-471c-be58-2421bfc63f8c")
+			(uuid "d7cc2fe0-90de-4944-86bf-e4e80d5feb93")
 			(effects
 				(font
 					(size 1 1)
@@ -4071,7 +4071,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "761b0552-5ff5-4f5f-ab15-92b32ddef23c")
+			(uuid "8abadc6a-7fe9-4562-af36-fae72c14c72c")
 			(effects
 				(font
 					(size 1 1)
@@ -4083,7 +4083,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a20358d-6816-4141-bcff-eaf79de50a92")
+			(uuid "a11a89ce-6942-40a8-9463-bdb161f008bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4094,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f18b02c2-3a78-44ad-9be7-297f941bd1a9")
+			(uuid "377e315d-665b-4fb0-8298-03d9b739cd22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,359 +4440,355 @@
 			)
 		)
 	)
-	(gr_arc
-		(start 83 93.5)
-		(mid 153 84.684131)
-		(end 223 93.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8ad0633d-aa35-42d0-8ad5-af61880b6970")
-	)
 	(gr_line
-		(start 83 108)
-		(end 83 93.5)
+		(start 84.232757 137.5)
+		(end 84.232833 121.117388)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "1b9c0448-a6dc-4834-9e49-f9971a345aa2")
+		(uuid "6a6d92a9-7a05-4cfa-b147-3994fefc5e14")
 	)
 	(gr_arc
-		(start 83 108)
-		(mid 153 98.707249)
-		(end 223 108)
+		(start 84.232757 137.5)
+		(mid 150.999866 120.607284)
+		(end 217.767007 137.499873)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "732513b8-5f64-45ee-a221-c25ef7a79d6a")
+		(uuid "5eff5cce-d833-4a97-a0e4-f61aaf200bec")
+	)
+	(gr_arc
+		(start 84.232833 121.117388)
+		(mid 150.999873 106.000001)
+		(end 217.766937 121.117278)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "e8d8681c-09f4-4e77-a865-3857cc093c54")
 	)
 	(gr_line
-		(start 223 108.000001)
-		(end 223 93.500001)
+		(start 217.767007 137.499873)
+		(end 217.766937 121.117278)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "4febc77f-df2e-4d3e-867f-fa3bb53a224f")
+		(uuid "0a3b59b1-b010-409c-b0e3-520dc4e597fa")
 	)
 	(segment
-		(start 205.5 100)
-		(end 201 95.5)
+		(start 196.5 118.5)
+		(end 201 123)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED1-+)")
-		(uuid "4d487a88-5915-4693-a2ed-82d4480c9149")
+		(uuid "07145e2d-9d57-40c2-a2eb-639a12e91a12")
 	)
 	(segment
-		(start 212 100)
-		(end 205.5 100)
+		(start 191.7 118.5)
+		(end 196.5 118.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED1-+)")
-		(uuid "76bd319d-2a9b-4c27-909d-dcc6e9c4fc0d")
+		(uuid "26131d1b-f9ee-48bf-a5ee-3c8acf21f4b3")
 	)
 	(segment
-		(start 201 95.5)
-		(end 193.7 95.5)
+		(start 201 123)
+		(end 205 123)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED1-+)")
-		(uuid "a6f9a756-d22c-4ad8-9a55-6a7534aa663e")
+		(uuid "65dfa31e-772e-4de0-9019-e65a54d77136")
 	)
 	(segment
-		(start 218 99)
-		(end 217 100)
+		(start 210 126)
+		(end 212 126)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(J1-Pin_2)")
-		(uuid "873bcfeb-a60b-40fb-97b1-79a10f42eb2a")
+		(uuid "4968080b-f7f5-4787-bff5-b7e3b26ff141")
 	)
 	(segment
-		(start 217 100)
-		(end 214 100)
+		(start 207 123)
+		(end 210 126)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(J1-Pin_2)")
-		(uuid "ff10af84-d3dc-4f15-904b-5f42f21ab244")
+		(uuid "cef06dd9-ab43-4064-8eb5-e1d81aab0074")
 	)
 	(segment
-		(start 151.5 90)
-		(end 147.5 94)
+		(start 150 113)
+		(end 146 117)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN8-+)")
-		(uuid "3c0af557-c32e-437e-bb3a-76a224dda824")
+		(uuid "ba7b2c0a-b50d-4596-ab3d-697f94922637")
 	)
 	(segment
-		(start 152 90)
-		(end 151.5 90)
+		(start 146 117)
+		(end 132 117)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN8-+)")
-		(uuid "71356925-916f-4028-ab30-6f2dc563b6b0")
+		(uuid "e49c12c5-5ec7-4a43-be77-3729c0310250")
 	)
 	(segment
-		(start 147.5 94)
-		(end 134 94)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(GREEN8-+)")
-		(uuid "ee9aed5c-dfaf-46b1-8ca5-4c79caaf12b5")
-	)
-	(segment
-		(start 114 98)
-		(end 128 98)
+		(start 112 121)
+		(end 126 121)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10--)")
 		(uuid "a4e8b1e5-da26-43ab-a399-e04158e53a35")
 	)
 	(segment
-		(start 128 98)
-		(end 132 94)
+		(start 126 121)
+		(end 130 117)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10--)")
 		(uuid "f6ed89fa-77ea-413e-b23d-81c40cf715de")
 	)
 	(segment
-		(start 157.7 92)
-		(end 153.7 88)
+		(start 155.7 115)
+		(end 151.7 111)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED3--)")
 		(uuid "8ac41584-cdc7-4054-994a-4d011900d02d")
 	)
 	(segment
-		(start 172.4 92)
-		(end 157.7 92)
+		(start 170.4 115)
+		(end 155.7 115)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED3--)")
 		(uuid "ac82043c-a8a9-49d2-abd2-9f9d79009ff7")
 	)
 	(segment
-		(start 192.4 95.5)
-		(end 177.2 95.5)
+		(start 190.4 118.5)
+		(end 175.2 118.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED1--)")
 		(uuid "94690c2b-643d-4066-910a-30e9290624ab")
 	)
 	(segment
-		(start 177.2 95.5)
-		(end 173.7 92)
+		(start 175.2 118.5)
+		(end 171.7 115)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED1--)")
 		(uuid "ba1bd737-a533-4ed0-8b95-b9a6c0f326c8")
 	)
 	(segment
-		(start 154.5 85.5)
-		(end 152 85.5)
+		(start 156.5 112.5)
+		(end 191.5 112.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "0951d4e4-b570-49df-9309-5c7f79433e52")
+		(uuid "25e02781-3600-4c36-83c5-4e0f37b6d039")
 	)
 	(segment
-		(start 112 98)
-		(end 112 96.4)
+		(start 110 121)
+		(end 110 119.4)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
 		(uuid "2f4077e6-8d97-4cc8-b5e4-021e31859e09")
 	)
 	(segment
-		(start 112 96.4)
-		(end 112.4 96)
+		(start 110 119.4)
+		(end 110.4 119)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
 		(uuid "306f05fb-e83d-49bc-b5d6-d4396487d1b9")
 	)
 	(segment
-		(start 193 89)
-		(end 158 89)
+		(start 108 115.5)
+		(end 111 112.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "3e5cfc37-348f-4304-9388-4d2bb4b7c4c4")
+		(uuid "38b71ecf-b5d0-4ac1-8825-ba96250bfaed")
 	)
 	(segment
-		(start 158 89)
-		(end 154.5 85.5)
+		(start 152.5 108.5)
+		(end 156.5 112.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "3f2230ab-5160-4a08-938d-ae800910526a")
+		(uuid "3a9aee35-84c6-4a17-836c-ac584e4d4cd0")
 	)
 	(segment
-		(start 110 96)
-		(end 112.4 96)
+		(start 200.5 121.5)
+		(end 212 121.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "4282f100-d453-40c0-9c25-996137e7a399")
+		(uuid "5ef69da0-2256-4f3c-a6ab-ca4a29ab6926")
 	)
 	(segment
-		(start 113 89.5)
-		(end 110 92.5)
+		(start 111 112.5)
+		(end 146 112.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "a5c4a02b-c0dd-4096-be41-910c92594950")
+		(uuid "8592718b-97ea-42cb-bf7c-280487372b81")
 	)
 	(segment
-		(start 152 85.5)
-		(end 148 89.5)
+		(start 108 119)
+		(end 108 115.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "bcadf5ee-831d-45f9-b176-8d78e92f85b0")
+		(uuid "901787a2-d826-4751-83f0-96bb62ec18ca")
 	)
 	(segment
-		(start 198.5 94.5)
-		(end 193 89)
+		(start 191.5 112.5)
+		(end 200.5 121.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "beeb7384-5b05-4fdd-8f0f-4f817dfa9ccb")
+		(uuid "ad6c6566-40ac-413b-9a5a-3acf62a2d0a8")
 	)
 	(segment
-		(start 148 89.5)
-		(end 113 89.5)
+		(start 150 108.5)
+		(end 152.5 108.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "ceec61c2-c945-4010-ad18-dd2bac324858")
+		(uuid "c54137b5-755d-41dc-b0c1-95e2494343aa")
 	)
 	(segment
-		(start 110 92.5)
-		(end 110 96)
+		(start 146 112.5)
+		(end 150 108.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "e4bc94ce-a676-4150-8fe8-47049b677b2c")
+		(uuid "dd304ac2-16ba-4fc6-beed-4da96c012bca")
 	)
 	(segment
-		(start 218 94.5)
-		(end 198.5 94.5)
+		(start 110.4 119)
+		(end 108 119)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN10-+)")
-		(uuid "f937a7c3-92bd-49e5-a356-a8328af2e4e8")
+		(uuid "eaf41e5f-1b38-40bf-8c45-dfdff68d48f2")
 	)
 	(segment
-		(start 133.7 92)
-		(end 148.4 92)
+		(start 131.7 115)
+		(end 146.4 115)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED4--)")
 		(uuid "3aee9314-dcd7-4dce-ad8f-b3b707078ad1")
 	)
 	(segment
-		(start 148.4 92)
-		(end 152.4 88)
+		(start 146.4 115)
+		(end 150.4 111)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED4--)")
 		(uuid "ceb3b6ba-e774-484a-badf-9eda01eba45a")
 	)
 	(segment
-		(start 113.7 96)
-		(end 128.4 96)
+		(start 111.7 119)
+		(end 126.4 119)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED5--)")
 		(uuid "760153af-c614-48a5-b170-cf4e2df9e8b7")
 	)
 	(segment
-		(start 128.4 96)
-		(end 132.4 92)
+		(start 126.4 119)
+		(end 130.4 115)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(RED5--)")
 		(uuid "84f85e79-89d3-47d0-99bb-40ae619cb064")
 	)
 	(segment
-		(start 172 94)
-		(end 158 94)
+		(start 170 117)
+		(end 156 117)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN7-+)")
 		(uuid "9f536910-3a52-4c45-b143-e5348a0465a2")
 	)
 	(segment
-		(start 158 94)
-		(end 154 90)
+		(start 156 117)
+		(end 152 113)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN7-+)")
 		(uuid "a8950894-a514-44ef-b404-60787420722f")
 	)
 	(segment
-		(start 216.5 102)
-		(end 214 102)
+		(start 207 125)
+		(end 207 125.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(J1-Pin_3)")
-		(uuid "8aa0a3bd-7da7-461b-9419-dd1d6faf9ff1")
+		(uuid "67a6275c-d1d2-494d-a0f4-619cde557ea6")
 	)
 	(segment
-		(start 218 103.5)
-		(end 216.5 102)
+		(start 207 125.5)
+		(end 212 130.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(J1-Pin_3)")
-		(uuid "ee14bf92-e59f-4d27-95b4-c73df19dfae2")
+		(uuid "d1fafad1-3bb7-48e2-868c-cd8954d6fc8b")
 	)
 	(segment
-		(start 201 98)
-		(end 194 98)
+		(start 196.5 121)
+		(end 200.5 125)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN2--)")
-		(uuid "397b7ce0-abe8-4ead-9696-55ca7d036cb2")
+		(uuid "60b05de0-7f38-4463-9a00-625a4b0d57b4")
 	)
 	(segment
-		(start 212 102)
-		(end 205 102)
+		(start 200.5 125)
+		(end 205 125)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN2--)")
-		(uuid "7a74c9aa-0bbc-47e3-814a-845ea27d9796")
+		(uuid "6b9b5b0c-4bd8-49f0-97b8-f1b95ffe4f48")
 	)
 	(segment
-		(start 205 102)
-		(end 201 98)
+		(start 192 121)
+		(end 196.5 121)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN2--)")
-		(uuid "e5880d3c-4b20-4cc7-aeb4-a6a7fb8b200d")
+		(uuid "efa7cc57-900e-42a5-b68a-da267974386b")
 	)
 	(segment
-		(start 178 98)
-		(end 174 94)
+		(start 190 121)
+		(end 176 121)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN2-+)")
-		(uuid "500d82f7-5c79-4a89-9ca2-5679302e6d1e")
+		(uuid "464e04da-e09b-4c49-afd8-92c186b1d37b")
 	)
 	(segment
-		(start 192 98)
-		(end 178 98)
+		(start 176 121)
+		(end 172 117)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(GREEN2-+)")
-		(uuid "be1c8a8b-1b56-4a70-9558-12a8774d99a6")
+		(uuid "f6995229-b179-4f3e-8d06-fd3af9d20546")
 	)
 	(embedded_fonts no)
 )
