@@ -201,7 +201,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -713,7 +713,7 @@
         "uuid": "be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
       }
     ],
-    "used_designators": "JP1,J1-2,SolderWirePad1",
+    "used_designators": "RED2,RED7-10,GREEN3,GREEN11-14,R3-4,J3-4,TP1-8",
     "variants": []
   },
   "sheets": [
