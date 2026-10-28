@@ -7,9 +7,9 @@
 	(title_block
 		(title "TSAL light")
 		(date "${CURRENT_DATE}")
-		(rev "v1")
+		(rev "v2")
 		(company "Green Lion Racing")
-		(comment 1 "Manoraj Ramalingam")
+		(comment 1 "Alexander Wallrodt")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -275,7 +275,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GLR_KiCad_Library:1608_150160AS73103"
+		(symbol "GLR_KiCad_Library:3528ADV_150141RS73113"
 			(pin_names
 				(hide yes)
 			)
@@ -294,7 +294,7 @@
 					)
 				)
 			)
-			(property "Value" "1608_150160AS73103"
+			(property "Value" "3528ADV_150141RS73113"
 				(at 12.7 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -306,7 +306,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMTW-1608"
+			(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
 				(at 12.7 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -318,7 +318,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
 				(at 12.7 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -389,7 +389,7 @@
 					(justify left)
 				)
 			)
-			(property "Part Number" "150160AS73103"
+			(property "Part Number" "150141RS73113"
 				(at 12.7 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -401,7 +401,7 @@
 					(justify left)
 				)
 			)
-			(property "Size" "1608"
+			(property "Size" "3528ADV"
 				(at 12.7 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -425,7 +425,7 @@
 					(justify left)
 				)
 			)
-			(property "λDom typ.(nm)" "605 nm"
+			(property "λDom typ.(nm)" "620 nm"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -437,7 +437,7 @@
 					(justify left)
 				)
 			)
-			(property "Emitting Color" "Amber"
+			(property "Emitting Color" "Red"
 				(at 12.7 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -449,7 +449,7 @@
 					(justify left)
 				)
 			)
-			(property "λPeak typ.(nm)" "610 nm"
+			(property "λPeak typ.(nm)" "629 nm"
 				(at 12.7 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -461,7 +461,7 @@
 					(justify left)
 				)
 			)
-			(property "IV typ.(mcd)" "700 mcd"
+			(property "IV typ.(mcd)" "900 mcd"
 				(at 12.7 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -473,7 +473,7 @@
 					(justify left)
 				)
 			)
-			(property "VF typ.(V)" "2.1 V"
+			(property "VF typ.(V)" "2.2 V"
 				(at 12.7 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -485,7 +485,7 @@
 					(justify left)
 				)
 			)
-			(property "Chip Technology" "AlGaInP"
+			(property "Chip Technology" "AlInGaP"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -520,7 +520,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WL-SMTW*1608*"
+			(property "ki_fp_filters" "*WL-SMTW*3528ADV*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -531,7 +531,7 @@
 					)
 				)
 			)
-			(symbol "1608_150160AS73103_1_0"
+			(symbol "3528ADV_150141RS73113_1_0"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -625,7 +625,7 @@
 					)
 				)
 			)
-			(symbol "1608_150160AS73103_1_1"
+			(symbol "3528ADV_150141RS73113_1_1"
 				(polyline
 					(pts
 						(xy 0.889 3.429) (xy 0 3.048) (xy 0 3.048) (xy 0.508 2.54) (xy 0.508 2.54) (xy 0.889 3.429)
@@ -689,7 +689,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GLR_KiCad_Library:2214_150224AS73100"
+		(symbol "GLR_KiCad_Library:3528_150141GS73100"
 			(pin_names
 				(hide yes)
 			)
@@ -708,7 +708,7 @@
 					)
 				)
 			)
-			(property "Value" "2214_150224AS73100"
+			(property "Value" "3528_150141GS73100"
 				(at 12.7 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -720,7 +720,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMTW-2214"
+			(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
 				(at 12.7 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -732,7 +732,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
 				(at 12.7 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -803,7 +803,7 @@
 					(justify left)
 				)
 			)
-			(property "Part Number" "150224AS73100"
+			(property "Part Number" "150141GS73100"
 				(at 12.7 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -815,7 +815,7 @@
 					(justify left)
 				)
 			)
-			(property "Size" "2214"
+			(property "Size" "3528"
 				(at 12.7 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -839,7 +839,7 @@
 					(justify left)
 				)
 			)
-			(property "λDom typ.(nm)" "605 nm"
+			(property "λDom typ.(nm)" "525 nm"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -851,7 +851,7 @@
 					(justify left)
 				)
 			)
-			(property "Emitting Color" "Amber"
+			(property "Emitting Color" "Green"
 				(at 12.7 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -863,7 +863,7 @@
 					(justify left)
 				)
 			)
-			(property "λPeak typ.(nm)" "609 nm"
+			(property "λPeak typ.(nm)" "515 nm"
 				(at 12.7 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -875,7 +875,7 @@
 					(justify left)
 				)
 			)
-			(property "IV typ.(mcd)" "210 mcd"
+			(property "IV typ.(mcd)" "1000 mcd"
 				(at 12.7 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -887,7 +887,7 @@
 					(justify left)
 				)
 			)
-			(property "VF typ.(V)" "2 V"
+			(property "VF typ.(V)" "3.1 V"
 				(at 12.7 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -899,7 +899,7 @@
 					(justify left)
 				)
 			)
-			(property "Chip Technology" "AlInGaP"
+			(property "Chip Technology" "InGaN"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -934,7 +934,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WL-SMTW*2214*"
+			(property "ki_fp_filters" "*WL-SMTW*3528*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -945,7 +945,7 @@
 					)
 				)
 			)
-			(symbol "2214_150224AS73100_1_0"
+			(symbol "3528_150141GS73100_1_0"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -960,7 +960,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -3.81 0) (xy -3.81 -3.81) (xy -1.27 -3.81)
+						(xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -972,7 +972,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -984,7 +984,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 2.032) (xy 0.889 3.429)
+						(xy -0.635 1.905) (xy -2.032 3.302)
 					)
 					(stroke
 						(width 0.254)
@@ -996,7 +996,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 2.032 3.302)
+						(xy 0.508 2.032) (xy -0.889 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -1020,31 +1020,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 3.81 -3.81) (xy 3.81 0) (xy 1.27 0)
+						(xy 1.27 -1.27) (xy -1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1055,7 +1031,7 @@
 					)
 				)
 				(text "+"
-					(at -5.08 -0.762 0)
+					(at 2.54 -0.635 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1063,46 +1039,10 @@
 					)
 				)
 			)
-			(symbol "2214_150224AS73100_1_1"
+			(symbol "3528_150141GS73100_1_1"
 				(polyline
 					(pts
-						(xy -1.27 -2.667) (xy -1.27 -5.207)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.667) (xy -0.635 -2.667)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.207) (xy -1.905 -5.207)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 3.429) (xy 0 3.048) (xy 0 3.048) (xy 0.508 2.54) (xy 0.508 2.54) (xy 0.889 3.429)
+						(xy -2.032 3.302) (xy -1.143 2.921) (xy -1.143 2.921) (xy -1.651 2.413) (xy -1.651 2.413) (xy -2.032 3.302)
 					)
 					(stroke
 						(width 0.254)
@@ -1114,19 +1054,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.667) (xy 1.27 -5.207) (xy -1.27 -3.937) (xy 1.27 -2.667)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 3.302) (xy 1.143 2.921) (xy 1.143 2.921) (xy 1.651 2.413) (xy 1.651 2.413) (xy 2.032 3.302)
+						(xy -0.889 3.429) (xy 0 3.048) (xy 0 3.048) (xy -0.508 2.54) (xy -0.508 2.54) (xy -0.889 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -1137,7 +1065,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1155,7 +1083,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -2635,400 +2563,405 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 245.11 92.71) (xy 245.11 102.87)
-		)
+	(rectangle
+		(start 207.01 83.058)
+		(end 242.57 116.84)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01ce28d2-092d-402f-98b2-8e0003c3c234")
-	)
-	(wire
-		(pts
-			(xy 227.33 69.85) (xy 229.87 69.85)
+		(fill
+			(type none)
 		)
+		(uuid "522ea04c-a540-466d-9ff5-4a876adebfeb")
+	)
+	(rectangle
+		(start 67.31 67.31)
+		(end 204.47 100.33)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01cfd8c9-26ef-433e-b4a4-a4f27857be29")
-	)
-	(wire
-		(pts
-			(xy 57.15 69.85) (xy 87.63 69.85)
+		(fill
+			(type none)
 		)
+		(uuid "59277a1b-8d6b-4744-87da-859de16a0f0c")
+	)
+	(rectangle
+		(start 67.31 102.87)
+		(end 204.47 135.89)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07919ad2-e7e3-4bbc-a739-88097cab3148")
+		(fill
+			(type none)
+		)
+		(uuid "a79ad990-d4d8-44f5-8927-f8e32c6b8d4c")
 	)
-	(wire
-		(pts
-			(xy 54.61 92.71) (xy 54.61 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c712138-d072-431f-b8d9-2e221cfc36c0")
-	)
-	(wire
-		(pts
-			(xy 157.48 105.41) (xy 181.61 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2faa0fa2-36db-4a5e-90a4-8b1e012589ed")
-	)
-	(wire
-		(pts
-			(xy 162.56 118.11) (xy 181.61 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4169c43b-1b3f-4591-9591-547ab368e790")
-	)
-	(wire
-		(pts
-			(xy 119.38 69.85) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468624b5-d1b6-413d-871d-65fd0731f271")
-	)
-	(wire
-		(pts
-			(xy 224.79 118.11) (xy 227.33 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47338b66-e579-4b89-9052-9c059381b22d")
-	)
-	(wire
-		(pts
-			(xy 220.98 105.41) (xy 227.33 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49f1cd7f-3522-41f3-be17-bf7020a66ac6")
-	)
-	(wire
-		(pts
-			(xy 237.49 69.85) (xy 257.81 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be89e60-4d43-4346-83f5-af1c4882da94")
-	)
-	(wire
-		(pts
-			(xy 128.27 57.15) (xy 152.4 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54e66d94-c3c7-4024-a281-1461dd49df61")
-	)
-	(wire
-		(pts
-			(xy 57.15 44.45) (xy 57.15 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c78434b-64e8-47bf-aac9-96ec4f5d5eae")
-	)
-	(wire
-		(pts
-			(xy 257.81 69.85) (xy 257.81 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d81b4c5-36db-4f60-9031-43a67ee5edf3")
-	)
-	(wire
-		(pts
-			(xy 223.52 57.15) (xy 229.87 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7102fb31-4007-4d60-b74b-c5631faf9c9c")
-	)
-	(wire
-		(pts
-			(xy 234.95 105.41) (xy 259.08 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797185b0-c61a-41a1-a99a-4e879d41e7d5")
-	)
-	(wire
-		(pts
-			(xy 245.11 92.71) (xy 54.61 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be3a843-e8a9-4151-addc-e05b19fd789e")
-	)
-	(wire
-		(pts
-			(xy 237.49 57.15) (xy 261.62 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c588d55-7927-4252-ba1a-13bddb6f8b57")
-	)
-	(wire
-		(pts
-			(xy 96.52 57.15) (xy 120.65 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99745a74-4bb9-46ca-8c9c-f6d8d623f60e")
-	)
-	(wire
-		(pts
-			(xy 191.77 57.15) (xy 215.9 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a58e6726-1d69-4db4-bf96-7ba79a56cefe")
-	)
-	(wire
-		(pts
-			(xy 257.81 59.69) (xy 261.62 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "affff942-24b2-4f14-b5b4-2e3afb20f117")
-	)
-	(wire
-		(pts
-			(xy 129.54 118.11) (xy 149.86 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b464f314-4b2b-44a2-aac4-4161ab7b181b")
-	)
-	(wire
-		(pts
-			(xy 116.84 118.11) (xy 97.79 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5bb8d8a-2688-4a1c-b426-1751a422939f")
-	)
-	(wire
-		(pts
-			(xy 165.1 69.85) (xy 184.15 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6631e9f-9c6c-4886-9800-dadca1a11301")
-	)
-	(wire
-		(pts
-			(xy 234.95 118.11) (xy 255.27 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e3cf81-498b-40e3-87cc-b430f251b536")
-	)
-	(wire
-		(pts
-			(xy 196.85 69.85) (xy 214.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c71a717e-d8d2-4501-9e5e-8a6c374541a2")
-	)
-	(wire
-		(pts
-			(xy 247.65 44.45) (xy 247.65 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfdb9c4f-e009-4067-85f9-70bb05a0e47b")
-	)
-	(wire
-		(pts
-			(xy 160.02 57.15) (xy 184.15 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0933b95-e3fc-4006-bae8-2a7a37ec4e75")
-	)
-	(wire
-		(pts
-			(xy 255.27 118.11) (xy 255.27 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2dd9e04-4100-4233-b798-bd64c01de139")
-	)
-	(wire
-		(pts
-			(xy 189.23 105.41) (xy 213.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6914ec4-7968-49e8-a0db-4d563d2f898d")
-	)
-	(wire
-		(pts
-			(xy 247.65 44.45) (xy 57.15 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93933aa-2f92-4287-9816-22bbe23115d1")
-	)
-	(wire
-		(pts
-			(xy 194.31 118.11) (xy 212.09 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e90a5791-59ff-456a-ae73-377f16f18ced")
-	)
-	(wire
-		(pts
-			(xy 132.08 69.85) (xy 152.4 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eca12b2b-86e7-4789-90b3-04074c5c71cd")
-	)
-	(wire
-		(pts
-			(xy 125.73 105.41) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1012372-9826-48dc-a824-21cdd3d88388")
-	)
-	(wire
-		(pts
-			(xy 54.61 118.11) (xy 85.09 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6222427-e918-4571-8aa1-7bc30bcc38a0")
-	)
-	(wire
-		(pts
-			(xy 255.27 107.95) (xy 259.08 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f79b0aad-196d-4a25-a344-3e6a2aeaf5fb")
-	)
-	(wire
-		(pts
-			(xy 93.98 105.41) (xy 118.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f811895b-7502-462c-be14-2ec945a772c2")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 231.14 118.11 90)
-		(unit 1)
-		(body_style 1)
+	(text "Backside LEDs"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(at 75.184 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "222b9cc9-c4c0-4149-8667-5947a71ea6b1")
+	)
+	(text "Connecting Pads"
+		(exclude_from_sim no)
+		(at 215.9 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50a2d70f-118b-448b-934d-af385db702db")
+	)
+	(text "Frontside LEDs"
+		(exclude_from_sim no)
+		(at 75.438 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7042ddd8-84a7-47ef-b9e3-3cf0fd16d6f1")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c40ffcd-4066-4925-bc05-07e1b560692c")
+	)
+	(wire
+		(pts
+			(xy 100.33 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103518cc-ccdc-416d-aa9f-abe130f55395")
+	)
+	(wire
+		(pts
+			(xy 130.81 128.27) (xy 138.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11429f58-9ab2-417f-b675-1b4a8600604a")
+	)
+	(wire
+		(pts
+			(xy 223.52 104.14) (xy 226.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156158c8-e68a-4ab0-a167-17f8872bdcd4")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17258392-6284-4fbe-a3f9-ce72670982fc")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e57d0f6-40e2-4c9e-b0e2-65bc0ed2bfac")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 107.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25174916-00bc-4b63-824e-fe09575d774b")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260d63ba-d998-4801-91f4-889f9622ed3c")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298b223a-0aef-46d6-a158-c54c0b47ab92")
+	)
+	(wire
+		(pts
+			(xy 162.56 128.27) (xy 170.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354aaea4-44e9-4611-bee8-85c7d8fecefd")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b247a0-52c6-4c0f-97d8-0208efb9a04c")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef573db-0bfd-45d9-bec2-dc33816698b2")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b34046-d98a-45ec-9c27-b3f0d85b2633")
+	)
+	(wire
+		(pts
+			(xy 177.8 128.27) (xy 182.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b7331d-9e28-4d08-9811-269fa2185ed0")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7540bf-01e5-4c5d-a74d-0be2d30dc02e")
+	)
+	(wire
+		(pts
+			(xy 177.8 115.57) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c1eddc-3531-47b9-86e3-a02b52baa8d1")
+	)
+	(wire
+		(pts
+			(xy 177.8 92.71) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699d3a74-268c-44c2-a5e3-658619000719")
+	)
+	(wire
+		(pts
+			(xy 100.33 128.27) (xy 107.95 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720e00bf-20f6-4967-81c8-a791758eb102")
+	)
+	(wire
+		(pts
+			(xy 146.05 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a0af50-ce88-42dd-9534-0e218a8cdb8e")
+	)
+	(wire
+		(pts
+			(xy 115.57 128.27) (xy 123.19 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878c7cd3-f36b-4697-9e2c-04ba4c6b7046")
+	)
+	(wire
+		(pts
+			(xy 87.63 92.71) (xy 92.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943d1424-47d2-4d2c-b0e2-ff6e724ea903")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22e6c31-c794-4f21-8552-115a38db81d1")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 92.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b937e988-a7e9-4641-9f18-b4d4253c4b50")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce740f31-25da-4a72-ae48-4fdf6d3193ae")
+	)
+	(wire
+		(pts
+			(xy 223.52 110.49) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60b4852-899e-47c0-9d51-8cb2708cafb2")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 92.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e335bf7e-5662-4c5f-a2fb-b079dd2129ce")
+	)
+	(wire
+		(pts
+			(xy 162.56 115.57) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78e7c6b-ab49-4d39-b70c-54aa86004158")
+	)
+	(wire
+		(pts
+			(xy 223.52 97.79) (xy 226.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b612b6-9150-4c5d-bb7f-4934b9fa0900")
+	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d51c57-c9be-4900-842c-3066fda6f81c")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 123.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd13d8f-56a0-4182-9300-1ed0dd6f2694")
+	)
+	(wire
+		(pts
+			(xy 223.52 91.44) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f703ab-1f72-445f-863a-cac252b60513")
+	)
+	(wire
+		(pts
+			(xy 177.8 80.01) (xy 182.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff52004c-a02b-478f-b94e-a208327b825b")
+	)
+	(global_label "24V_RED"
+		(shape input)
+		(at 87.63 80.01 180)
 		(fields_autoplaced yes)
-		(uuid "0f4c8f91-2f0a-46d7-8f34-1091ee607189")
-		(property "Reference" "R2"
-			(at 231.14 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "R"
-			(at 231.14 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 231.14 119.888 90)
+		(uuid "12e96a84-fcb6-4650-b5da-741781f83df3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4806 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3036,69 +2969,47 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 231.14 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f30f199b-9688-4674-a956-43c1d131154d")
-		)
-		(pin "1"
-			(uuid "b52bb904-d8f6-40ae-8a93-9b21c482be9f")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "R2")
-					(unit 1)
-				)
+				(justify right)
 			)
 		)
 	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 158.75 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+	(global_label "24V_GREEN"
+		(shape input)
+		(at 87.63 128.27 180)
 		(fields_autoplaced yes)
-		(uuid "215f33a0-9df7-40ed-8a9e-c88c93fde1ff")
-		(property "Reference" "GREEN13"
-			(at 157.7298 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36c574bf-cabb-4298-b08c-ef03f062b114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.0011 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "2214_150224AS73100"
-			(at 171.45 46.99 0)
+	)
+	(global_label "GND_RED"
+		(shape input)
+		(at 182.88 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4926ecd2-3e12-404b-91d4-99c3954b7022")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3923 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3109,8 +3020,44 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 171.45 49.53 0)
+	)
+	(global_label "GND_RED"
+		(shape input)
+		(at 223.52 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c77a9ec-6dd4-4c3b-9b5d-278f9fdc4d5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.0077 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND_RED"
+		(shape input)
+		(at 182.88 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "604d434b-ffb5-4ced-8338-9fedcbf6f634")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3923 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,8 +3068,223 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 171.45 52.07 0)
+	)
+	(global_label "24V_GREEN"
+		(shape input)
+		(at 223.52 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84f1bb37-4468-4126-af08-7791e561efd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.8911 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "24V_GREEN"
+		(shape input)
+		(at 87.63 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d546837-226b-49fc-8ff3-11cc055c1a30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.0011 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "24V_RED"
+		(shape input)
+		(at 87.63 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae9d88ed-97cc-4bbc-b744-d39ee9d7f7e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4806 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "24V_RED"
+		(shape input)
+		(at 223.52 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c21c34a5-039e-4a9b-986a-169228ed5ffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.3706 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND_GREEN"
+		(shape input)
+		(at 182.88 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3e3e0ee-e690-4af2-b6ec-580a92c3861e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.8718 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND_GREEN"
+		(shape input)
+		(at 223.52 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4976852-d358-4705-8112-c0430021fcb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.5282 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND_GREEN"
+		(shape input)
+		(at 182.88 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f750eb18-bd3e-4b17-9c07-bc76e945fe77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.8718 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 127 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1084988a-4cdd-4250-b782-820f2dd93004")
+		(property "Reference" "RED7"
+			(at 126.3608 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1608_150160AS73103"
+			(at 139.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 139.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3134,7 +3296,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 158.75 69.85 0)
+			(at 127 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3145,7 +3307,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 171.45 54.61 0)
+			(at 139.7 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3157,7 +3319,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 171.45 57.15 0)
+			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3169,7 +3331,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 171.45 59.69 0)
+			(at 139.7 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3181,7 +3343,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 171.45 62.23 0)
+			(at 139.7 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,8 +3354,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 171.45 64.77 0)
+		(property "Part Number" "150141RS73113"
+			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,8 +3366,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 171.45 67.31 0)
+		(property "Size" "3528ADV"
+			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3217,7 +3379,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 171.45 69.85 0)
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3228,8 +3390,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 171.45 72.39 0)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 139.7 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,8 +3402,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 171.45 74.93 0)
+		(property "Emitting Color" "Red"
+			(at 139.7 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3252,8 +3414,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 171.45 77.47 0)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 139.7 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,8 +3426,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 171.45 80.01 0)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 139.7 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,8 +3438,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 171.45 82.55 0)
+		(property "VF typ.(V)" "2.2 V"
+			(at 139.7 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3451,7 @@
 			)
 		)
 		(property "Chip Technology" "AlInGaP"
-			(at 171.45 85.09 0)
+			(at 139.7 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3463,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 171.45 87.63 0)
+			(at 139.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3313,23 +3475,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "c0fa9e6f-6648-4b4a-8a28-8fbb6d4b2efc")
+			(uuid "1ca16f3d-8e39-4470-b58e-189c3fd5f315")
 		)
 		(pin "1"
-			(uuid "736439d6-ffb4-43c8-8ea2-2ee87ca352ab")
+			(uuid "6b200a22-5984-481b-8dcb-c4e505ffe9ff")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN13")
+					(reference "RED7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 124.46 57.15 0)
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 142.24 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3338,9 +3500,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bb6956b-edc6-4797-bc46-7bd0399b25ea")
-		(property "Reference" "RED8"
-			(at 123.8208 50.8 0)
+		(uuid "2f64e279-5013-4c14-ac37-4d7cc544e6a5")
+		(property "Reference" "GREEN3"
+			(at 141.6008 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3349,8 +3511,8 @@
 				)
 			)
 		)
-		(property "Value" "1608_150160AS73103"
-			(at 137.16 34.29 0)
+		(property "Value" "2214_150224AS73100"
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,8 +3523,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 137.16 36.83 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3373,8 +3535,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 137.16 39.37 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 129.54 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,7 +3548,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 124.46 57.15 0)
+			(at 142.24 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,7 +3559,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 137.16 41.91 0)
+			(at 129.54 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3409,7 +3571,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 137.16 44.45 0)
+			(at 129.54 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3421,7 +3583,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 137.16 46.99 0)
+			(at 129.54 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3433,7 +3595,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 137.16 49.53 0)
+			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,8 +3606,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150160AS73103"
-			(at 137.16 52.07 0)
+		(property "Part Number" "150141GS73100"
+			(at 129.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,8 +3618,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "1608"
-			(at 137.16 54.61 0)
+		(property "Size" "3528"
+			(at 129.54 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3469,7 +3631,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 137.16 57.15 0)
+			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,8 +3642,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 137.16 59.69 0)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,8 +3654,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 137.16 62.23 0)
+		(property "Emitting Color" "Green"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3504,8 +3666,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 137.16 64.77 0)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,8 +3678,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 137.16 67.31 0)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 129.54 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,8 +3690,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 137.16 69.85 0)
+		(property "VF typ.(V)" "3.1 V"
+			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,8 +3702,8 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlGaInP"
-			(at 137.16 72.39 0)
+		(property "Chip Technology" "InGaN"
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3553,7 +3715,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 137.16 74.93 0)
+			(at 129.54 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,15 +3727,95 @@
 			)
 		)
 		(pin "2"
-			(uuid "286b7312-ad84-4556-b80f-746c1be4bad7")
+			(uuid "d7caec33-0f4d-4cf2-b60c-42ad3428bb5c")
 		)
 		(pin "1"
-			(uuid "fc8e9761-262f-4343-999e-d39f0826c190")
+			(uuid "5e0e626a-619e-4168-b700-e77e7df6d9be")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED8")
+					(reference "GREEN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3065ab53-ce70-4878-ba37-4423442e05f5")
+		(property "Reference" "R2"
+			(at 96.52 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430"
+			(at 96.52 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 96.52 94.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "280d7495-88cf-4635-a2ce-0fe24ff6e51e")
+		)
+		(pin "1"
+			(uuid "0e407bb7-3416-453a-ad74-c6f23eeed7bc")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3656,8 +3898,8 @@
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 91.44 118.11 0)
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 111.76 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3666,9 +3908,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "41cc2768-ccd6-4363-81fe-586939b5b978")
-		(property "Reference" "GREEN10"
-			(at 90.4198 111.76 0)
+		(uuid "34a40243-2c5b-43ad-81a9-cebc9865b78d")
+		(property "Reference" "GREEN1"
+			(at 111.1208 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3678,7 +3920,7 @@
 			)
 		)
 		(property "Value" "2214_150224AS73100"
-			(at 104.14 95.25 0)
+			(at 99.06 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,8 +3931,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 104.14 97.79 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 99.06 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,8 +3943,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 104.14 100.33 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3956,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 91.44 118.11 0)
+			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3967,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 104.14 102.87 0)
+			(at 99.06 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3979,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 104.14 105.41 0)
+			(at 99.06 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3991,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 104.14 107.95 0)
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +4003,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 104.14 110.49 0)
+			(at 99.06 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,8 +4014,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 104.14 113.03 0)
+		(property "Part Number" "150141GS73100"
+			(at 99.06 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3784,8 +4026,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 104.14 115.57 0)
+		(property "Size" "3528"
+			(at 99.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3797,7 +4039,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 104.14 118.11 0)
+			(at 99.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,8 +4050,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 104.14 120.65 0)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 99.06 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,8 +4062,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 104.14 123.19 0)
+		(property "Emitting Color" "Green"
+			(at 99.06 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3832,8 +4074,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 104.14 125.73 0)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 99.06 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3844,8 +4086,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 104.14 128.27 0)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3856,8 +4098,1096 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 104.14 130.81 0)
+		(property "VF typ.(V)" "3.1 V"
+			(at 99.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "InGaN"
+			(at 99.06 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 99.06 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "c9fc0e27-5e95-49c5-886c-c577e18ed00a")
+		)
+		(pin "1"
+			(uuid "2b3639a2-1813-4daa-9ec0-14f9979e7f28")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "GREEN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 111.76 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405a0314-6049-44bb-be74-ffe45b644bce")
+		(property "Reference" "GREEN6"
+			(at 111.1208 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2214_150224AS73100"
+			(at 99.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 99.06 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 99.06 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 111.76 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 99.06 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 99.06 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 99.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141GS73100"
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528"
+			(at 99.06 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 99.06 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 99.06 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Green"
+			(at 99.06 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 99.06 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "3.1 V"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "InGaN"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "dbf86df0-b1a4-4bd3-8b04-eb58e6b3026c")
+		)
+		(pin "1"
+			(uuid "00830a11-48bd-4e32-aba8-6884153ad03d")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "GREEN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd3c0a6-f54c-4828-bb9d-8717b74fd399")
+		(property "Reference" "R1"
+			(at 96.52 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 96.52 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 96.52 81.788 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "38349154-37e1-4da4-b632-6fd5adf795dc")
+		)
+		(pin "1"
+			(uuid "f8057880-8168-4941-9e92-f20047c227d6")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 142.24 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d32586-ce60-42f9-95c6-a600056bf061")
+		(property "Reference" "GREEN8"
+			(at 141.6008 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2214_150224AS73100"
+			(at 129.54 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 129.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 129.54 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 142.24 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 129.54 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 129.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 129.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 129.54 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141GS73100"
+			(at 129.54 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528"
+			(at 129.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 129.54 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 129.54 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Green"
+			(at 129.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 129.54 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 129.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "3.1 V"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "InGaN"
+			(at 129.54 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 129.54 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f766b6f5-ffd5-4f3c-a336-33e650d742a2")
+		)
+		(pin "1"
+			(uuid "25c1a2e6-8357-4ac5-b656-29f659de2136")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "GREEN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 127 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fc32d73-6904-4701-81c8-e0197d06d055")
+		(property "Reference" "GREEN7"
+			(at 126.3608 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2214_150224AS73100"
+			(at 114.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 114.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 114.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 127 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 114.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 114.3 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 114.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 114.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141GS73100"
+			(at 114.3 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528"
+			(at 114.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 114.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 114.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Green"
+			(at 114.3 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 114.3 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "3.1 V"
+			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "InGaN"
+			(at 114.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 114.3 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "231e32b9-3df5-463b-9a59-7e265c8e24f4")
+		)
+		(pin "1"
+			(uuid "0ef5362a-9add-4775-8c72-e3d382f09587")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "GREEN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 111.76 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64c9c9b6-85be-488a-a38b-26e8775a782a")
+		(property "Reference" "RED6"
+			(at 111.1208 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1608_150160AS73103"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 124.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 124.46 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 124.46 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 124.46 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141RS73113"
+			(at 124.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528ADV"
+			(at 124.46 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 124.46 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 124.46 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Red"
+			(at 124.46 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 124.46 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 124.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "2.2 V"
+			(at 124.46 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +5199,7 @@
 			)
 		)
 		(property "Chip Technology" "AlInGaP"
-			(at 104.14 133.35 0)
+			(at 124.46 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +5211,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 104.14 135.89 0)
+			(at 124.46 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3893,599 +5223,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8742ca89-1444-472b-ac26-ce61f1621e2e")
+			(uuid "7e723d57-89ea-438f-a86e-23306e0bf51f")
 		)
 		(pin "1"
-			(uuid "a263e3e2-bf52-4f6b-992f-1e96ad7d8b05")
+			(uuid "d1ab544a-dca0-40c8-93c8-542b929ed099")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 233.68 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4557c8d5-b4a3-4429-89ba-fa3e8a25ed5e")
-		(property "Reference" "R4"
-			(at 233.68 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 233.68 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 233.68 71.628 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 233.68 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8f4f1c33-f0ce-4d0e-b32b-858c59875674")
-		)
-		(pin "1"
-			(uuid "d90ed063-c3a7-4217-883e-d5c4a2abcd2d")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 219.71 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b456ad8-d703-42b4-8f9d-59b2ac1d6dc1")
-		(property "Reference" "RED2"
-			(at 219.0708 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1608_150160AS73103"
-			(at 232.41 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 232.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 232.41 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 219.71 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 232.41 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 232.41 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 232.41 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 232.41 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150160AS73103"
-			(at 232.41 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "1608"
-			(at 232.41 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 232.41 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 232.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 232.41 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 232.41 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 232.41 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 232.41 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlGaInP"
-			(at 232.41 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 232.41 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "63e60d4a-c495-4d3c-84b4-628de6208fdc")
-		)
-		(pin "1"
-			(uuid "718dc1e1-2cce-4f0d-ab0a-6bef82a540a1")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 217.17 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ee1eca5-1825-4921-8eb5-98e82965c89e")
-		(property "Reference" "RED1"
-			(at 216.5308 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1608_150160AS73103"
-			(at 229.87 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 229.87 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 229.87 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 217.17 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 229.87 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 229.87 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 229.87 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 229.87 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150160AS73103"
-			(at 229.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "1608"
-			(at 229.87 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 229.87 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 229.87 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 229.87 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 229.87 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 229.87 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 229.87 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlGaInP"
-			(at 229.87 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 229.87 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "908dff1e-d9d9-4e6b-83ad-eebe6e242952")
-		)
-		(pin "1"
-			(uuid "9c82b964-cc02-4aed-a690-d4b9f4b79d81")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED1")
+					(reference "RED6")
 					(unit 1)
 				)
 			)
@@ -4493,7 +5239,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 261.62 59.69 270)
+		(at 226.06 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4503,8 +5249,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d4d44f-c5fa-4698-ae8e-8df84fca995e")
-		(property "Reference" "TP6"
-			(at 266.7 58.4199 90)
+		(property "Reference" "PAD3"
+			(at 231.14 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4514,8 +5260,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 266.7 60.9599 90)
+		(property "Value" "GREEN+"
+			(at 231.14 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4525,8 +5271,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 261.62 64.77 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 226.06 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4537,7 +5283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 64.77 0)
+			(at 226.06 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +5294,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 261.62 59.69 0)
+			(at 226.06 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4564,259 +5310,7 @@
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 153.67 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65525ef0-9397-4336-8680-80cb6663a27b")
-		(property "Reference" "RED4"
-			(at 153.0308 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1608_150160AS73103"
-			(at 166.37 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 166.37 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 153.67 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 166.37 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 166.37 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 166.37 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 166.37 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150160AS73103"
-			(at 166.37 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "1608"
-			(at 166.37 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 166.37 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 166.37 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 166.37 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 166.37 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 166.37 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 166.37 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlGaInP"
-			(at 166.37 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 166.37 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "9b6c19b5-3fd6-4240-931b-df7e2c8269ae")
-		)
-		(pin "1"
-			(uuid "b1be9959-abc2-4248-889c-1a0082d9e70d")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED4")
+					(reference "PAD3")
 					(unit 1)
 				)
 			)
@@ -4824,746 +5318,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65d37e50-ef86-493a-a06e-ba9bc88c181a")
-		(property "Reference" "TP7"
-			(at 85.598 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 85.598 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 88.9 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1687c9f-d6e9-4bd1-96f8-da1b0b1fd0fa")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 185.42 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65ef1873-3e7f-4e37-93ba-21bffd93584e")
-		(property "Reference" "RED3"
-			(at 184.7808 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1608_150160AS73103"
-			(at 198.12 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 198.12 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 198.12 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 185.42 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 198.12 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 198.12 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 198.12 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 198.12 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150160AS73103"
-			(at 198.12 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "1608"
-			(at 198.12 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 198.12 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 198.12 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 198.12 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 198.12 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 198.12 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 198.12 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlGaInP"
-			(at 198.12 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 198.12 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "c3760d40-2965-4142-ab77-472380bf5842")
-		)
-		(pin "1"
-			(uuid "fd099394-951e-4d55-be4c-527e90edb9f2")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "665997c4-21a2-46f8-9375-795d84f8e85e")
-		(property "Reference" "TP2"
-			(at 264.16 106.6799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 264.16 109.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 259.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08352913-01cb-4a16-996f-dda7bebb9245")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 218.44 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6accc38e-e8b4-4984-8ee8-435853657918")
-		(property "Reference" "GREEN2"
-			(at 217.4198 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2214_150224AS73100"
-			(at 231.14 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 231.14 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 231.14 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 218.44 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 231.14 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 231.14 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 231.14 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 231.14 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150224AS73100"
-			(at 231.14 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "2214"
-			(at 231.14 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 231.14 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 231.14 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 231.14 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 231.14 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 231.14 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2 V"
-			(at 231.14 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlInGaP"
-			(at 231.14 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 231.14 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "3d89afb2-9780-4cd0-b8ed-a5db4a60456e")
-		)
-		(pin "1"
-			(uuid "0f94fff2-46ac-4fbb-adc0-f833989c36a3")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 247.65 54.61 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6df6e2d9-b87a-4a15-9a4b-0a04673a7c25")
-		(property "Reference" "TP4"
-			(at 252.73 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 252.73 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 247.65 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 247.65 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6233512e-48db-4585-b515-2d65e4cf2117")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 86.36 105.41 90)
+		(at 226.06 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5573,28 +5328,30 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e57c8b6-a288-4318-9925-78081382f70f")
-		(property "Reference" "TP8"
-			(at 83.058 100.33 90)
+		(property "Reference" "PAD1"
+			(at 231.14 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 83.058 102.87 90)
+		(property "Value" "RED+"
+			(at 231.14 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 86.36 100.33 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 226.06 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,7 +5362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 100.33 0)
+			(at 226.06 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5616,7 +5373,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 86.36 105.41 0)
+			(at 226.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5632,15 +5389,15 @@
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP8")
+					(reference "PAD1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 190.5 69.85 0)
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 142.24 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5649,9 +5406,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "824f10c3-70db-4d51-829e-fe8d61067bb4")
-		(property "Reference" "GREEN14"
-			(at 189.4798 63.5 0)
+		(uuid "70b29214-fec4-4978-907b-591cf2fa4656")
+		(property "Reference" "RED3"
+			(at 141.6008 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5660,8 +5417,8 @@
 				)
 			)
 		)
-		(property "Value" "2214_150224AS73100"
-			(at 203.2 46.99 0)
+		(property "Value" "1608_150160AS73103"
+			(at 154.94 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5672,8 +5429,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 203.2 49.53 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 154.94 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5684,8 +5441,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 203.2 52.07 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 154.94 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5697,7 +5454,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 190.5 69.85 0)
+			(at 142.24 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5465,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 203.2 54.61 0)
+			(at 154.94 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5720,7 +5477,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 203.2 57.15 0)
+			(at 154.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,7 +5489,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 203.2 59.69 0)
+			(at 154.94 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5744,7 +5501,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 203.2 62.23 0)
+			(at 154.94 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5755,8 +5512,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 203.2 64.77 0)
+		(property "Part Number" "150141RS73113"
+			(at 154.94 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,8 +5524,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 203.2 67.31 0)
+		(property "Size" "3528ADV"
+			(at 154.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +5537,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 203.2 69.85 0)
+			(at 154.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,8 +5548,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 203.2 72.39 0)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 154.94 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,8 +5560,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 203.2 74.93 0)
+		(property "Emitting Color" "Red"
+			(at 154.94 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,8 +5572,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 203.2 77.47 0)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 154.94 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5827,8 +5584,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 203.2 80.01 0)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5839,8 +5596,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 203.2 82.55 0)
+		(property "VF typ.(V)" "2.2 V"
+			(at 154.94 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5852,7 +5609,7 @@
 			)
 		)
 		(property "Chip Technology" "AlInGaP"
-			(at 203.2 85.09 0)
+			(at 154.94 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5864,7 +5621,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 203.2 87.63 0)
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,267 +5633,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "100c1c2d-e3f2-4bd0-88c7-64d4979cfc6c")
+			(uuid "1e8cbebc-8efa-4f14-9d5b-5c8aae1d18a5")
 		)
 		(pin "1"
-			(uuid "10584d0c-afd4-4270-8968-d140463550dc")
+			(uuid "4b2c0d40-d02f-4382-aeea-61a3c898c93b")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 156.21 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "831c1790-2daa-4b72-a8f3-0af9a7fc3f41")
-		(property "Reference" "RED9"
-			(at 155.5708 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1608_150160AS73103"
-			(at 168.91 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 168.91 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 168.91 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 156.21 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 168.91 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 168.91 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 168.91 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 168.91 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150160AS73103"
-			(at 168.91 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "1608"
-			(at 168.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 168.91 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 168.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 168.91 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 168.91 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 168.91 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 168.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlGaInP"
-			(at 168.91 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 168.91 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "6c31dd82-5712-4a5d-9f5a-2b3c472afe64")
-		)
-		(pin "1"
-			(uuid "0f729477-268d-4593-a951-63046520cb29")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED9")
+					(reference "RED3")
 					(unit 1)
 				)
 			)
@@ -6144,7 +5649,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 105.41 90)
+		(at 96.52 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6153,9 +5658,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "838bfa96-c156-495b-b9b6-1616883856e5")
-		(property "Reference" "R1"
-			(at 231.14 99.06 90)
+		(uuid "77222016-fa99-476b-b4de-798db7a38820")
+		(property "Reference" "R3"
+			(at 96.52 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6164,8 +5669,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 231.14 101.6 90)
+		(property "Value" "680"
+			(at 96.52 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6175,7 +5680,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 231.14 107.188 90)
+			(at 96.52 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +5691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 105.41 0)
+			(at 96.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +5702,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 105.41 0)
+			(at 96.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,23 +5713,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "8f323bf0-8c6d-4a70-b734-28cc0a5bc4f6")
+			(uuid "a6d6c581-b65b-4532-b173-07d9141ad4e0")
 		)
 		(pin "1"
-			(uuid "ed028016-111a-41ff-9357-db2f7376cd30")
+			(uuid "b7ffe725-d62d-4f2f-a3be-0804edc02e85")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 220.98 69.85 0)
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 158.75 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6233,9 +5738,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b54ac8d-1162-45fd-94f0-9b17f4ea8b72")
-		(property "Reference" "GREEN3"
-			(at 219.9598 63.5 0)
+		(uuid "7ac3d9d4-9385-4924-910b-f24919f2914d")
+		(property "Reference" "RED4"
+			(at 158.1108 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6244,8 +5749,8 @@
 				)
 			)
 		)
-		(property "Value" "2214_150224AS73100"
-			(at 233.68 46.99 0)
+		(property "Value" "1608_150160AS73103"
+			(at 171.45 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,8 +5761,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 233.68 49.53 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 171.45 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6268,8 +5773,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 233.68 52.07 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 171.45 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6281,7 +5786,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 220.98 69.85 0)
+			(at 158.75 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6292,7 +5797,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 233.68 54.61 0)
+			(at 171.45 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +5809,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 233.68 57.15 0)
+			(at 171.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,7 +5821,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 233.68 59.69 0)
+			(at 171.45 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,7 +5833,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 233.68 62.23 0)
+			(at 171.45 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,8 +5844,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 233.68 64.77 0)
+		(property "Part Number" "150141RS73113"
+			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,8 +5856,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 233.68 67.31 0)
+		(property "Size" "3528ADV"
+			(at 171.45 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6364,7 +5869,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 233.68 69.85 0)
+			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,8 +5880,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 233.68 72.39 0)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6387,8 +5892,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 233.68 74.93 0)
+		(property "Emitting Color" "Red"
+			(at 171.45 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6399,8 +5904,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 233.68 77.47 0)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 171.45 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,8 +5916,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 233.68 80.01 0)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 171.45 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6423,8 +5928,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 233.68 82.55 0)
+		(property "VF typ.(V)" "2.2 V"
+			(at 171.45 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,7 +5941,7 @@
 			)
 		)
 		(property "Chip Technology" "AlInGaP"
-			(at 233.68 85.09 0)
+			(at 171.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6448,7 +5953,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 233.68 87.63 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6460,23 +5965,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "75bcdd0c-5ec7-4281-b90a-d2b480a5f296")
+			(uuid "a564c09d-237d-4578-b6a4-8470e2ae3402")
 		)
 		(pin "1"
-			(uuid "e4730df8-81d8-439b-a342-c91a4ed26252")
+			(uuid "9162f706-1ab9-409a-a2b2-8cc18de0a5a6")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN3")
+					(reference "RED4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 93.98 69.85 0)
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 173.99 128.27 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6485,9 +5990,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9cc4481a-6e16-4443-8197-ecff11d04dbe")
-		(property "Reference" "GREEN11"
-			(at 92.9598 63.5 0)
+		(uuid "85b2ca9c-8d91-4a53-8bb4-e295f0ad07b4")
+		(property "Reference" "GREEN10"
+			(at 173.3508 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6497,7 +6002,7 @@
 			)
 		)
 		(property "Value" "2214_150224AS73100"
-			(at 106.68 46.99 0)
+			(at 161.29 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,8 +6013,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 106.68 49.53 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 161.29 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6520,8 +6025,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 106.68 52.07 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6533,7 +6038,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 93.98 69.85 0)
+			(at 173.99 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,7 +6049,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 106.68 54.61 0)
+			(at 161.29 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6556,7 +6061,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 106.68 57.15 0)
+			(at 161.29 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +6073,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 106.68 59.69 0)
+			(at 161.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,7 +6085,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 106.68 62.23 0)
+			(at 161.29 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6591,8 +6096,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 106.68 64.77 0)
+		(property "Part Number" "150141GS73100"
+			(at 161.29 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,8 +6108,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 106.68 67.31 0)
+		(property "Size" "3528"
+			(at 161.29 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6616,7 +6121,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 106.68 69.85 0)
+			(at 161.29 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,8 +6132,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 106.68 72.39 0)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6639,8 +6144,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 106.68 74.93 0)
+		(property "Emitting Color" "Green"
+			(at 161.29 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,8 +6156,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 106.68 77.47 0)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 161.29 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6663,8 +6168,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 106.68 80.01 0)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,8 +6180,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 106.68 82.55 0)
+		(property "VF typ.(V)" "3.1 V"
+			(at 161.29 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,8 +6192,8 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlInGaP"
-			(at 106.68 85.09 0)
+		(property "Chip Technology" "InGaN"
+			(at 161.29 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +6205,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 106.68 87.63 0)
+			(at 161.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,15 +6217,267 @@
 			)
 		)
 		(pin "2"
-			(uuid "052d84ae-2c57-4b1b-8348-0f10a672a3f5")
+			(uuid "3e6a2653-a8fd-4862-85d8-5e7f73accb1f")
 		)
 		(pin "1"
-			(uuid "e40c9f18-2e8f-4585-a5d2-05565e214770")
+			(uuid "54f38cb2-b944-4216-95cc-0073416dd761")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN11")
+					(reference "GREEN10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 173.99 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5d29c7-c146-4c8d-adba-1390c6c9b89f")
+		(property "Reference" "RED5"
+			(at 173.3508 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1608_150160AS73103"
+			(at 186.69 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 186.69 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 186.69 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 186.69 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 186.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 186.69 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 186.69 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141RS73113"
+			(at 186.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528ADV"
+			(at 186.69 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 186.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 186.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Red"
+			(at 186.69 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 186.69 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 186.69 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "2.2 V"
+			(at 186.69 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "AlInGaP"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "80320b55-5afd-492a-8a7a-22ecba64748d")
+		)
+		(pin "1"
+			(uuid "5aba3969-0b91-4c5d-8f39-7848d0c8c3dd")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "RED5")
 					(unit 1)
 				)
 			)
@@ -6728,7 +6485,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 102.87 270)
+		(at 226.06 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6738,8 +6495,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a486e4a2-54ed-45ad-b899-7d6714d5a384")
-		(property "Reference" "TP3"
-			(at 250.19 101.5999 90)
+		(property "Reference" "PAD4"
+			(at 231.14 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6749,8 +6506,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 250.19 104.1399 90)
+		(property "Value" "GREEN-"
+			(at 231.14 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6760,8 +6517,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 245.11 107.95 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6772,7 +6529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 107.95 0)
+			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6783,7 +6540,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 102.87 0)
+			(at 226.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6799,15 +6556,15 @@
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP3")
+					(reference "PAD4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 90.17 105.41 0)
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 142.24 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6816,9 +6573,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6e999fa-7016-4e22-a324-59b6ab7094b3")
-		(property "Reference" "RED6"
-			(at 89.5308 99.06 0)
+		(uuid "a72a89f4-9402-4f9f-ba5e-8b1dba6dfe93")
+		(property "Reference" "RED8"
+			(at 141.6008 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6828,7 +6585,7 @@
 			)
 		)
 		(property "Value" "1608_150160AS73103"
-			(at 102.87 82.55 0)
+			(at 154.94 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6839,8 +6596,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 102.87 85.09 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 154.94 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,8 +6608,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 102.87 87.63 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +6621,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 90.17 105.41 0)
+			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6875,7 +6632,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 102.87 90.17 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,7 +6644,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 102.87 92.71 0)
+			(at 154.94 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6899,7 +6656,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 102.87 95.25 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +6668,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 102.87 97.79 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6922,8 +6679,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150160AS73103"
-			(at 102.87 100.33 0)
+		(property "Part Number" "150141RS73113"
+			(at 154.94 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6934,8 +6691,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "1608"
-			(at 102.87 102.87 0)
+		(property "Size" "3528ADV"
+			(at 154.94 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6947,7 +6704,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 102.87 105.41 0)
+			(at 154.94 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6958,8 +6715,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 102.87 107.95 0)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 154.94 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6970,8 +6727,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 102.87 110.49 0)
+		(property "Emitting Color" "Red"
+			(at 154.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,8 +6739,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 102.87 113.03 0)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 154.94 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,8 +6751,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 102.87 115.57 0)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7006,8 +6763,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 102.87 118.11 0)
+		(property "VF typ.(V)" "2.2 V"
+			(at 154.94 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,8 +6775,8 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlGaInP"
-			(at 102.87 120.65 0)
+		(property "Chip Technology" "AlInGaP"
+			(at 154.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7031,7 +6788,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 102.87 123.19 0)
+			(at 154.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,15 +6800,267 @@
 			)
 		)
 		(pin "2"
-			(uuid "988d1960-526b-4549-af82-8637e0fcec20")
+			(uuid "06be959f-a68d-41b0-a13c-f4ae03cbc860")
 		)
 		(pin "1"
-			(uuid "afdf2b4d-4b2a-405e-9f67-21248fdc708e")
+			(uuid "7dbdfd6e-af53-43ae-89fa-3592eb1ad1e5")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED6")
+					(reference "RED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 158.75 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa06ee42-e74d-4314-87b2-9e25babc6a0d")
+		(property "Reference" "GREEN9"
+			(at 158.1108 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2214_150224AS73100"
+			(at 146.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 146.05 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 146.05 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 158.75 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 146.05 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 146.05 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 146.05 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 146.05 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141GS73100"
+			(at 146.05 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528"
+			(at 146.05 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 146.05 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 146.05 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Green"
+			(at 146.05 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 146.05 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "3.1 V"
+			(at 146.05 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "InGaN"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 146.05 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f6f9dcff-3a5a-4e4c-8fdf-35b2a5ad78ef")
+		)
+		(pin "1"
+			(uuid "d08c691d-7d82-472b-ae98-b7d357bb9719")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "GREEN9")
 					(unit 1)
 				)
 			)
@@ -7059,7 +7068,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 261.62 57.15 270)
+		(at 226.06 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7069,8 +7078,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af399dab-f0d4-4e96-8a72-ea4259649ebf")
-		(property "Reference" "TP5"
-			(at 266.7 55.8799 90)
+		(property "Reference" "PAD2"
+			(at 231.14 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7080,8 +7089,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 266.7 58.4199 90)
+		(property "Value" "RED-"
+			(at 231.14 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7091,8 +7100,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 261.62 62.23 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 226.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7103,7 +7112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 62.23 0)
+			(at 226.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7114,7 +7123,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 261.62 57.15 0)
+			(at 226.06 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7130,15 +7139,15 @@
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP5")
+					(reference "PAD2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 121.92 105.41 0)
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 127 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7147,9 +7156,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1384642-0e71-4967-82ac-65698fd3ad87")
-		(property "Reference" "RED5"
-			(at 121.2808 99.06 0)
+		(uuid "b8c83b44-2ddb-4424-97e2-ede990599ab3")
+		(property "Reference" "GREEN2"
+			(at 126.3608 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7158,8 +7167,8 @@
 				)
 			)
 		)
-		(property "Value" "1608_150160AS73103"
-			(at 134.62 82.55 0)
+		(property "Value" "2214_150224AS73100"
+			(at 114.3 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,8 +7179,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 134.62 85.09 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 114.3 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7182,8 +7191,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 134.62 87.63 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 114.3 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,7 +7204,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 121.92 105.41 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,7 +7215,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 134.62 90.17 0)
+			(at 114.3 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +7227,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 134.62 92.71 0)
+			(at 114.3 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,7 +7239,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 134.62 95.25 0)
+			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +7251,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 134.62 97.79 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,8 +7262,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150160AS73103"
-			(at 134.62 100.33 0)
+		(property "Part Number" "150141GS73100"
+			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,8 +7274,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "1608"
-			(at 134.62 102.87 0)
+		(property "Size" "3528"
+			(at 114.3 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,7 +7287,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 134.62 105.41 0)
+			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,8 +7298,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 134.62 107.95 0)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 114.3 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7301,8 +7310,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 134.62 110.49 0)
+		(property "Emitting Color" "Green"
+			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7313,8 +7322,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 134.62 113.03 0)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7325,8 +7334,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 134.62 115.57 0)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7337,8 +7346,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 134.62 118.11 0)
+		(property "VF typ.(V)" "3.1 V"
+			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7349,8 +7358,8 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlGaInP"
-			(at 134.62 120.65 0)
+		(property "Chip Technology" "InGaN"
+			(at 114.3 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7362,7 +7371,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 134.62 123.19 0)
+			(at 114.3 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7374,23 +7383,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "4eb3c3d6-061b-4caa-a47b-ae9f88469249")
+			(uuid "88e6c337-a61b-4e3f-8d4f-b7914a470e5e")
 		)
 		(pin "1"
-			(uuid "4413d316-9852-49fb-93b5-82c5c60e7545")
+			(uuid "6d687484-f689-4768-aec0-e9043ad21e75")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED5")
+					(reference "GREEN2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 187.96 118.11 0)
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 158.75 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7399,9 +7408,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b61be691-0e93-4066-98dc-7b569734458d")
-		(property "Reference" "GREEN7"
-			(at 186.9398 111.76 0)
+		(uuid "c27882fe-bd6e-4b43-8396-39dfbb372c75")
+		(property "Reference" "RED9"
+			(at 158.1108 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7410,8 +7419,8 @@
 				)
 			)
 		)
-		(property "Value" "2214_150224AS73100"
-			(at 200.66 95.25 0)
+		(property "Value" "1608_150160AS73103"
+			(at 171.45 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,8 +7431,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 200.66 97.79 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 171.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7434,8 +7443,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 200.66 100.33 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7447,7 +7456,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 187.96 118.11 0)
+			(at 158.75 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7467,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 200.66 102.87 0)
+			(at 171.45 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7470,7 +7479,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 200.66 105.41 0)
+			(at 171.45 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7482,7 +7491,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 200.66 107.95 0)
+			(at 171.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7494,7 +7503,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 200.66 110.49 0)
+			(at 171.45 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,8 +7514,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 200.66 113.03 0)
+		(property "Part Number" "150141RS73113"
+			(at 171.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7517,8 +7526,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 200.66 115.57 0)
+		(property "Size" "3528ADV"
+			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,7 +7539,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 200.66 118.11 0)
+			(at 171.45 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,8 +7550,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 200.66 120.65 0)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 171.45 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,8 +7562,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 200.66 123.19 0)
+		(property "Emitting Color" "Red"
+			(at 171.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,8 +7574,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 200.66 125.73 0)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 171.45 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,8 +7586,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 200.66 128.27 0)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 171.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,8 +7598,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 200.66 130.81 0)
+		(property "VF typ.(V)" "2.2 V"
+			(at 171.45 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7602,7 +7611,7 @@
 			)
 		)
 		(property "Chip Technology" "AlInGaP"
-			(at 200.66 133.35 0)
+			(at 171.45 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7614,7 +7623,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 200.66 135.89 0)
+			(at 171.45 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,23 +7635,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "4fb6b89a-491a-4843-b0ce-023639cc6fc4")
+			(uuid "318a7b48-9eb5-4a0f-b706-05328a0169e0")
 		)
 		(pin "1"
-			(uuid "5a14e6b1-142d-4305-bab9-6d622784656e")
+			(uuid "0edad520-7bc5-4833-ae4d-cdb9fed0b1a5")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN7")
+					(reference "RED9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 92.71 57.15 0)
+		(lib_id "Device:R")
+		(at 96.52 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7651,9 +7660,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c154cb8d-c592-4edf-b59a-7bdd2ad4b5ba")
-		(property "Reference" "RED7"
-			(at 92.0708 50.8 0)
+		(uuid "cebca264-829e-42ff-8097-d034f0cf0a75")
+		(property "Reference" "R4"
+			(at 96.52 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7662,45 +7671,8 @@
 				)
 			)
 		)
-		(property "Value" "1608_150160AS73103"
-			(at 105.41 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 105.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 105.41 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 92.71 57.15 0)
-			(hide yes)
+		(property "Value" "430"
+			(at 96.52 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7709,477 +7681,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 105.41 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 105.41 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 105.41 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 105.41 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150160AS73103"
-			(at 105.41 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "1608"
-			(at 105.41 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 105.41 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 105.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 105.41 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 105.41 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 105.41 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 105.41 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlGaInP"
-			(at 105.41 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 105.41 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "cf0d0486-f690-4df9-889f-975707c000fe")
-		)
-		(pin "1"
-			(uuid "6492846a-5b35-4a14-988e-d7bb39e4ffe4")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "RED7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 156.21 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8183e89-0d72-4e66-b0de-b87afc209497")
-		(property "Reference" "GREEN8"
-			(at 155.1898 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2214_150224AS73100"
-			(at 168.91 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 168.91 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 168.91 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 156.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 168.91 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 168.91 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260320"
-			(at 168.91 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WL-SMTW"
-			(at 168.91 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "150224AS73100"
-			(at 168.91 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "2214"
-			(at 168.91 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 168.91 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 168.91 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Emitting Color" "Amber"
-			(at 168.91 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 168.91 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 168.91 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VF typ.(V)" "2 V"
-			(at 168.91 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Chip Technology" "AlInGaP"
-			(at 168.91 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "2θ50% typ.(°)" "120 °"
-			(at 168.91 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "ff3ed8ba-f006-44e5-8a62-555f4ab56c18")
-		)
-		(pin "1"
-			(uuid "78007313-92af-46b6-b627-d59842efca9b")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2403f64-9d73-4ce7-b237-4a88a632e6bb")
-		(property "Reference" "TP1"
-			(at 264.16 104.1399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 264.16 106.6799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 259.08 110.49 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 96.52 130.048 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +7693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 110.49 0)
+			(at 96.52 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,8 +7703,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 259.08 105.41 0)
+		(property "Description" "Resistor"
+			(at 96.52 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8210,22 +7713,25 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "34703c46-4cbf-4bf3-bbbb-9b06bba9b9f0")
 		)
 		(pin "1"
-			(uuid "48b4f2a4-046b-45b4-b633-f62525029d1d")
+			(uuid "eadc6fbb-0fea-40ec-965a-52b103322d8b")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "TP1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:1608_150160AS73103")
-		(at 187.96 57.15 0)
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 173.99 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8234,9 +7740,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e5b40c7c-5449-4a7f-91e5-a89b8ac5b227")
+		(uuid "d0f26598-0b11-458b-bb7b-6254fc6ea9a4")
 		(property "Reference" "RED10"
-			(at 187.3208 50.8 0)
+			(at 173.3508 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8246,7 +7752,7 @@
 			)
 		)
 		(property "Value" "1608_150160AS73103"
-			(at 200.66 34.29 0)
+			(at 186.69 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,8 +7763,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 200.66 36.83 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 186.69 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8269,8 +7775,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
-			(at 200.66 39.37 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8282,7 +7788,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 187.96 57.15 0)
+			(at 173.99 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8293,7 +7799,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 200.66 41.91 0)
+			(at 186.69 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +7811,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 200.66 44.45 0)
+			(at 186.69 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8317,7 +7823,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 200.66 46.99 0)
+			(at 186.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8329,7 +7835,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 200.66 49.53 0)
+			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8340,8 +7846,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150160AS73103"
-			(at 200.66 52.07 0)
+		(property "Part Number" "150141RS73113"
+			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,8 +7858,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "1608"
-			(at 200.66 54.61 0)
+		(property "Size" "3528ADV"
+			(at 186.69 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8365,7 +7871,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 200.66 57.15 0)
+			(at 186.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8376,8 +7882,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 200.66 59.69 0)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 186.69 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8388,8 +7894,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 200.66 62.23 0)
+		(property "Emitting Color" "Red"
+			(at 186.69 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8400,8 +7906,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "610 nm"
-			(at 200.66 64.77 0)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 186.69 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,8 +7918,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "700 mcd"
-			(at 200.66 67.31 0)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 186.69 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8424,8 +7930,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2.1 V"
-			(at 200.66 69.85 0)
+		(property "VF typ.(V)" "2.2 V"
+			(at 186.69 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,8 +7942,8 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlGaInP"
-			(at 200.66 72.39 0)
+		(property "Chip Technology" "AlInGaP"
+			(at 186.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +7955,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 200.66 74.93 0)
+			(at 186.69 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8461,10 +7967,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "000b2fb3-840f-410f-960b-e3eaef647804")
+			(uuid "2c29a70e-aee7-410e-9f07-f2d1afcc5031")
 		)
 		(pin "1"
-			(uuid "253f0833-0ea8-4dce-8c3e-9f8cc2637a23")
+			(uuid "c95f4d61-b406-4b96-9a16-744e9ff90050")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
@@ -8476,8 +7982,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 233.68 57.15 90)
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 158.75 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8486,89 +7992,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e762d4e6-ba16-4542-9f3e-506bf3a736d1")
-		(property "Reference" "R3"
-			(at 233.68 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 233.68 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 233.68 58.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 233.68 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "28e5006c-bebb-46db-a297-34aa17179bf5")
-		)
-		(pin "1"
-			(uuid "43110305-a3db-461f-a8ea-3d840ef932f6")
-		)
-		(instances
-			(project "glr-pcb-tsal-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 125.73 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb151fed-07a5-4526-b089-bd48e55a3e86")
-		(property "Reference" "GREEN12"
-			(at 124.7098 63.5 0)
+		(uuid "df8e9cfb-e936-4557-8381-440d8985399e")
+		(property "Reference" "GREEN4"
+			(at 158.1108 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8578,7 +8004,7 @@
 			)
 		)
 		(property "Value" "2214_150224AS73100"
-			(at 138.43 46.99 0)
+			(at 146.05 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8589,8 +8015,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 138.43 49.53 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8601,8 +8027,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 138.43 52.07 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 146.05 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8614,7 +8040,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 125.73 69.85 0)
+			(at 158.75 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,7 +8051,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 138.43 54.61 0)
+			(at 146.05 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8637,7 +8063,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 138.43 57.15 0)
+			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8649,7 +8075,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 138.43 59.69 0)
+			(at 146.05 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +8087,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 138.43 62.23 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,8 +8098,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 138.43 64.77 0)
+		(property "Part Number" "150141GS73100"
+			(at 146.05 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,8 +8110,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 138.43 67.31 0)
+		(property "Size" "3528"
+			(at 146.05 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8697,7 +8123,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 138.43 69.85 0)
+			(at 146.05 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,8 +8134,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 138.43 72.39 0)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 146.05 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8720,8 +8146,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 138.43 74.93 0)
+		(property "Emitting Color" "Green"
+			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,8 +8158,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 138.43 77.47 0)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 146.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8744,8 +8170,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 138.43 80.01 0)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8756,8 +8182,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 138.43 82.55 0)
+		(property "VF typ.(V)" "3.1 V"
+			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8768,8 +8194,8 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlInGaP"
-			(at 138.43 85.09 0)
+		(property "Chip Technology" "InGaN"
+			(at 146.05 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8781,7 +8207,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 138.43 87.63 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8793,23 +8219,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "b4b8b9ab-d0b1-404f-815f-b9257fb6c3f9")
+			(uuid "ef003df6-f805-48cb-b97e-287d05cc7d4c")
 		)
 		(pin "1"
-			(uuid "a1bb1030-87ed-481f-8f42-11c811028d55")
+			(uuid "2026c7ff-9db2-4a20-af4c-ac2b55b46e68")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN12")
+					(reference "GREEN4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "GLR_KiCad_Library:2214_150224AS73100")
-		(at 123.19 118.11 0)
+		(lib_id "GLR_KiCad_Library:3528_150141GS73100")
+		(at 173.99 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8818,9 +8244,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb4738c3-4594-47f6-8fe7-8376ad955269")
-		(property "Reference" "GREEN9"
-			(at 122.1698 111.76 0)
+		(uuid "e844de2c-9078-4b13-9793-977276a40a9a")
+		(property "Reference" "GREEN5"
+			(at 173.3508 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8830,7 +8256,7 @@
 			)
 		)
 		(property "Value" "2214_150224AS73100"
-			(at 135.89 95.25 0)
+			(at 161.29 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,8 +8267,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-2214"
-			(at 135.89 97.79 0)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
+			(at 161.29 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8853,8 +8279,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
-			(at 135.89 100.33 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
+			(at 161.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +8292,7 @@
 			)
 		)
 		(property "Description" "Mono-color TOP LED Waterclear"
-			(at 123.19 118.11 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,7 +8303,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 135.89 102.87 0)
+			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,7 +8315,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 135.89 105.41 0)
+			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8901,7 +8327,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 135.89 107.95 0)
+			(at 161.29 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +8339,7 @@
 			)
 		)
 		(property "Series" "WL-SMTW"
-			(at 135.89 110.49 0)
+			(at 161.29 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8924,8 +8350,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
-			(at 135.89 113.03 0)
+		(property "Part Number" "150141GS73100"
+			(at 161.29 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8936,8 +8362,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
-			(at 135.89 115.57 0)
+		(property "Size" "3528"
+			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8949,7 +8375,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 135.89 118.11 0)
+			(at 161.29 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,8 +8386,8 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
-			(at 135.89 120.65 0)
+		(property "λDom typ.(nm)" "525 nm"
+			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,8 +8398,8 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
-			(at 135.89 123.19 0)
+		(property "Emitting Color" "Green"
+			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,8 +8410,8 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
-			(at 135.89 125.73 0)
+		(property "λPeak typ.(nm)" "515 nm"
+			(at 161.29 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8996,8 +8422,8 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
-			(at 135.89 128.27 0)
+		(property "IV typ.(mcd)" "1000 mcd"
+			(at 161.29 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9008,8 +8434,8 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
-			(at 135.89 130.81 0)
+		(property "VF typ.(V)" "3.1 V"
+			(at 161.29 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9020,8 +8446,8 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlInGaP"
-			(at 135.89 133.35 0)
+		(property "Chip Technology" "InGaN"
+			(at 161.29 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +8459,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "120 °"
-			(at 135.89 135.89 0)
+			(at 161.29 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9045,15 +8471,519 @@
 			)
 		)
 		(pin "2"
-			(uuid "48c38e84-a71d-4f9f-b63e-fe1db845fab1")
+			(uuid "cafe7626-7d14-402d-91c9-db0ca91c7b10")
 		)
 		(pin "1"
-			(uuid "858dc0a9-573c-4135-9a0e-04dc8b88d85c")
+			(uuid "0f80fd6c-f24f-48e7-ac79-03f2acd23332")
 		)
 		(instances
 			(project "glr-pcb-tsal-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "GREEN9")
+					(reference "GREEN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 127 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea733db1-c759-4df8-99a0-9960db4be3c4")
+		(property "Reference" "RED2"
+			(at 126.3608 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1608_150160AS73103"
+			(at 139.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 139.7 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 139.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 139.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 139.7 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141RS73113"
+			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528ADV"
+			(at 139.7 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 139.7 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Red"
+			(at 139.7 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 139.7 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 139.7 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "2.2 V"
+			(at 139.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "AlInGaP"
+			(at 139.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 139.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "85feec83-877e-4b05-8b12-5066610d8728")
+		)
+		(pin "1"
+			(uuid "3ec116b9-34a6-4819-9e6e-72f38d65e9df")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "RED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLR_KiCad_Library:3528ADV_150141RS73113")
+		(at 111.76 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6947768-70b0-40bf-a731-ee0fe7e2c2f4")
+		(property "Reference" "RED1"
+			(at 111.1208 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1608_150160AS73103"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
+			(at 124.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color TOP LED Waterclear"
+			(at 111.76 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 124.46 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMTW"
+			(at 124.46 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150141RS73113"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "3528ADV"
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "620 nm"
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Red"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "629 nm"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "900 mcd"
+			(at 124.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "2.2 V"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "AlInGaP"
+			(at 124.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "120 °"
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "e692a867-9266-4511-b7d1-046c256f7de1")
+		)
+		(pin "1"
+			(uuid "cf429392-1012-4d0d-a6ac-d43431f45017")
+		)
+		(instances
+			(project "glr-pcb-tsal-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "RED1")
 					(unit 1)
 				)
 			)

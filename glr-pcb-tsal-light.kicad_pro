@@ -249,7 +249,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -292,7 +293,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1"
+      "sch_revision": "v2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -581,7 +582,7 @@
       "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "output/glr-pcb-tsal-light.stpz",
       "svg": "",
       "vrml": ""
     },
@@ -655,12 +656,108 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Chip Technology",
+          "name": "Chip Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Created Date",
+          "name": "Created Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Emitting Color",
+          "name": "Emitting Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IV typ.(mcd)",
+          "name": "IV typ.(mcd)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VF typ.(V)",
+          "name": "VF typ.(V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "λDom typ.(nm)",
+          "name": "λDom typ.(nm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "λPeak typ.(nm)",
+          "name": "λPeak typ.(nm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "2θ50% typ.(°)",
+          "name": "2θ50% typ.(°)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -713,7 +810,7 @@
         "uuid": "be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
       }
     ],
-    "used_designators": "RED2,RED7-10,GREEN3,GREEN11-14,R3-4,J3-4,TP1-8",
+    "used_designators": "RED1-10,GREEN1-14,R1-6,J3-4,TP1-8,#G1,PAD1-4",
     "variants": []
   },
   "sheets": [
