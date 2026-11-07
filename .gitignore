@@ -19,6 +19,7 @@ fp-info-cache
 *.lck
 \#auto_saved_files\#
 .history/
+production/
 
 # Netlist files (exported from Eeschema)
 *.net
